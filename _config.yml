@@ -1,2 +1,3 @@
 name: Stefan Schwartz, Fantastic Coordinator
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
