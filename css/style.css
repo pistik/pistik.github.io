@@ -1,4 +1,6 @@
+
 body {
+    color: #999;
     margin: 60px auto;
     width: 70%;
 }
@@ -12,14 +14,23 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
+
+nav a {
+    text-decoration: none;
+    color: #b4d455;
+}
+
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 h1 {
+    color: #323232;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }

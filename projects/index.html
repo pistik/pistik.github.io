@@ -1,26 +1,22 @@
 ---
 layout: default
-title: Projects from School subject - Web publishing
+title: Projects
 ---
-
-<div class="some">
-	<h1>Projects</h1>
+	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-	
-		<h2>prve</h2>
-		{%for project in site.colprojects %}
-		{{ site.members | where:"year","2015" }}
-			<li><a href="{{ project.url }} ">{{ project.title }}</a></li>
-			
+		<h2>School projects</h2>
+		{% for project in site.colprojects %}
+			{% if project.categories contains 'school' %}
+				<li><a href="{{ project.url }} ">{{ project.title }}</a></li>
+			{% endif %}
 		{% endfor %}
-		<h2>Druhe</h2>
-		{{ site.members | where:"year","2016" }}
-		{%for project in site.colprojects %}
-			<li><a href="{{ project.url }} ">{{ project.title }}</a></li>
-			
-		{% endfor %}
-			<li><a href="{{ project.url }} ">{{ project.title }}</a></li>
-			
-			
 	</ul>
-</div>
+
+	<ul class="posts">
+		<h2>Other projects</h2>
+		{% for project in site.colprojects %}
+			{% if project.categories contains 'other' %}
+				<li><a href="{{ project.url }} ">{{ project.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>

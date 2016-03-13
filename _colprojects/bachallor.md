@@ -2,7 +2,9 @@
 layout: project
 title: Bachallor
 year: 2016
-language: EN
+language: "Java Gradle"
+categories: school mobile wifi call
+tags: [mobile,remote,usefull,call,magic]
 ---
 
 <div>
