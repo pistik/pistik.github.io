@@ -9,6 +9,6 @@ tags: [mobile,remote,usefull,call,magic]
 
 <div>
 {% highlight ruby %}
-	In my bachallor I am trying to simplify using the smartphones at home.
+	In my bachallor I am trying to {% comment %} simplify {% endcomment %} using the smartphones at home.
 {% endhighlight %}
 </div>
