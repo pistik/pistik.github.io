@@ -13,7 +13,7 @@ body {
   padding: 8px 0; }
 
 .navbar-inverse {
-  background-color: #222;
+  background-color: #323232;
   border-color: #222; }
 
 .navbar-inverse .navbar-brand {
@@ -36,12 +36,18 @@ color: #fff;
   color: #bada44;
 }
 
+.content {
+    margin-top: 80px;
+}
+
+
+
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 nav ul li, footer ul li {
@@ -62,21 +68,27 @@ nav a {
 a:hover {
     text-decoration: none;
 }
+
 h1 {
     color: #323232;
-    font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 8px;
 }
+
 h2 {
     font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
-
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -87,7 +99,6 @@ ul.posts li {
     list-style: none;
 }
 
-
 footer h3 {
     color: #1212;
 }
@@ -97,10 +108,12 @@ footer {
   padding-top: 5px;
   background-color: #323232;
 }
-  footer .col-md-4 {
+
+footer .col-md-4 {
     text-align: center;
 }
-  footer .footer-top {
+
+footer .footer-top {
     margin-bottom: 50px;
 }
 
@@ -121,5 +134,5 @@ footer .bottom-footer {
 footer .bottom-footer p {
     color: #fff;
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
