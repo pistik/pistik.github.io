@@ -5,7 +5,7 @@ layout: none
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Stefan Schwartz's Blog</title>
-	<link href="http://pistik.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://pistik.github.io/blog/feed.xml" rel="self"/>
 	<link href="http://pistik.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://pistik.github.io/blog</id>
