@@ -1,13 +1,16 @@
 name: Stefan Schwartz
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-description: An ordinary blog of an ordinary student at an unusual university
+description: An ordinary blog (this) of an ordinary student (me) at an unusual university (FIIT)
 url: http://pistik.github.io
+
 gems:
   - jemoji
   - jekyll-mentions
   - jekyll-sitemap
+  - jekyll-redirect-from
+
 collections:
-  colprojects:
+  projects:
     output: true
     permalink: /projects/:path/

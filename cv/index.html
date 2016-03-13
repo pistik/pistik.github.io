@@ -2,3 +2,27 @@
 layout: cv
 title: Stefan Schwartz's website
 ---
+
+<table class="table">
+    <tr>
+    	<td>Technology name</td>
+    	<td>Level of skill</td>
+    </tr>
+    {% for skill in site.data.cv_skills %}
+    	<tr>
+          <td>{{skill.tech}}</td>
+          <td>{{skill.level}}</td>
+        </tr>
+    {% endfor %}
+    
+    <tr>
+    	<td>My hobbies</td>
+    	<td>&nbsp;</td>
+    </tr>
+    {% for hobbie in site.data.cv_hobbies %}
+    	<tr>
+    		<td>&nbsp;</td>
+    		<td>{{hobbie.hobbie}}</td>
+    	</tr>
+    {% endfor %}
+</table>

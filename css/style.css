@@ -1,15 +1,49 @@
 
+
 body {
-    color: #999;
-    margin: 60px auto;
-    width: 70%;
+    font-size: 100%;
+    color: #333;
 }
+
+.navbar {
+  min-height: 60px;
+}
+
+.navbar-fixed-top {
+  padding: 8px 0; }
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #222; }
+
+.navbar-inverse .navbar-brand {
+    font-weight: 600;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  font-weight: 400;
+  color: #bada44;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+font-size: 1.6rem;
+color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #bada44;
+}
+
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -19,7 +53,6 @@ a {
     text-decoration: none;
     color: #999;
 }
-
 
 nav a {
     text-decoration: none;
@@ -35,18 +68,15 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -55,4 +85,41 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+
+footer h3 {
+    color: #1212;
+}
+
+footer {
+  border: 0;
+  padding-top: 5px;
+  background-color: #323232;
+}
+  footer .col-md-4 {
+    text-align: center;
+}
+  footer .footer-top {
+    margin-bottom: 50px;
+}
+
+footer a {
+    font-size: 1.3em;
+}
+
+footer a:hover {
+    color: #bada44;
+}
+
+footer .bottom-footer {
+    text-align: center;
+    color: #fff;
+    background: #222;
+    padding: 1rem 0; }
+
+footer .bottom-footer p {
+    color: #fff;
+    margin: 0;
+    font-size: 1.1em;
 }

@@ -8,4 +8,4 @@ tags: [ruby,linux-for-ever,git,github-pages]
 ---
 
 Zadanie 1: Osobná webová prezentácia na GitHub pages.<br>
-Riešenie: Práve sa na nej nachádzate. :)
+Riešenie: Práve sa na nej nachádzate. :-)
