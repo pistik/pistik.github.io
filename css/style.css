@@ -47,15 +47,26 @@ color: #fff;
 }
 
 .post {
-    margin: 20px 70px 0 70px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 80px;
+    margin-right: auto;
     font-size: 1.5em;
 }
 
 .meta {
+    margin-left: 80px;
     font-size: 1.3em;
 }
 
+.container a {
+    font-size: .8em;
+}
 
+.container h3 {
+    padding-left: 10px;
+}
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -89,7 +100,7 @@ h1 {
     font-size: 60px;
     line-height: 90px;
     font-weight: 700;
-    margin: 0px;
+    margin-left: 80px;
     padding-bottom: 8px;
 }
 
@@ -134,7 +145,7 @@ footer .footer-top {
     margin-bottom: 50px;
 }
 
-footer a {
+.footer-col a {
     font-size: 1.3em;
 }
 
