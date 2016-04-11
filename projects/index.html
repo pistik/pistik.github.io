@@ -10,9 +10,10 @@ title: Projects
 			{% if project.categories contains 'school' %}
 				<li><a href="{{ project.url }}">{{ project.title }}</a></li>
 			{% endif %}
-
+		{% endfor %}
+		<h3>WEB Publishing (WPUB)</h3>
+		{% for project in site.projects %}
 			{% if project.categories contains 'wpub' %}
-				<h3>WEB Publishing (WPUB)</h3>
 				<li><a href="{{ project.url }}">{{ project.title }}</a></li>
 			{% endif %}
 
