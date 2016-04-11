@@ -1,6 +1,6 @@
 ---
 layout: project
-title: WPUB - 1st task
+title: WPUB - 1. zadanie
 year: 2016
 languages: "Jekyll, Markdown, GitHub, html"
 categories: wpub site new_things
