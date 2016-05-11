@@ -7,4 +7,4 @@ categories: school UDP PKS
 tags: [boring,problematic-linux,sad,windows-just-in-case-of-emergency]
 ---
 
-In my bachallor I am trying to simplify using the smartphones at home.
+Na predmete PKS sme mali za úlohu vytvoriť jednoduchý komunikátor (chatovací program), ktorý pracuje na UDP sieťovej vrstve.
